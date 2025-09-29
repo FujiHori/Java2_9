@@ -16,6 +16,21 @@ public class Exp9_PetShop {
 				+ "\n体重：" + cat1.weight
 				+ "\n血液型：" + cat1.bloodType
 				+ "\n血統書の有無：" +cat1.pedigree
+		);
+		
+		Exp9_CatState cat2 = new Exp9_CatState();
+		
+		cat2.kinds = "ペルシャ猫";
+		cat2.age = 3;
+		cat2.weight = 6;
+		cat2.bloodType = 'B';
+		cat2.pedigree = true;
+		
+		System.out.println("\n種類：" + cat2.kinds
+				+ "\n年齢：" + cat2.age
+				+ "\n体重：" + cat2.weight
+				+ "\n血液型：" + cat2.bloodType
+				+ "\n血統書の有無：" +cat2.pedigree
 				);
 		
 		
